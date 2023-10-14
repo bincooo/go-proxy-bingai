@@ -206,7 +206,7 @@ export default {
         if (_RwBf.length !== 0) {
           cookies += '; MUID=' + _RwBf
         } else {
-          cookies += '; MUID=' + randomString(256);
+          // cookies += '; MUID=' + randomString(256);
         }
       }
     if (!cookie.includes('_U=')) {
